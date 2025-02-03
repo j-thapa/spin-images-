@@ -1,4 +1,4 @@
-# spin-images-
+# 2D spin images gneeration from 3D point cloud meshes
 Python code to create spin images from 3D point cloud meshes.
 
 
