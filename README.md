@@ -2,13 +2,13 @@
 Python code to create spin images from 3D point cloud meshes.
 
 
-![Alt Text](images/sink.jpg) 
+![Alt Text](images/basin.jpg) 
 
-when a point cloud like above is entered, the code separate it into three chunks and produces a spin images output show in the below.
+when a point cloud of an object like the basin above is entered, the script separates the pcd into three chunks and produces  spin images as thevoutput shown below.
 
 ![Alt Text](images/spin.jpg)
 
-The inner working of code and functions is well commented in the script itself.
+The inner working of code and functions  is well commented in the script itself.
 
 
 Referenced from Spin-Images: A Representation for 3-D Surface Matching by Andrew Johnson
