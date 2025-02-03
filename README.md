@@ -1,20 +1,31 @@
-# 2D spin images gneeration from 3D point cloud meshes
-Python code to create spin images from 3D point cloud meshes.
+# **2D Spin Image Generation from 3D Point Cloud Meshes**
+This repository contains Python code for generating **spin images** from **3D point cloud meshes**.
 
+## **Overview**
+Spin images provide a robust representation for **3D surface matching** by capturing geometric information around a point in a 2D image-like format. This script processes a given **3D point cloud** and generates **spin images** for analysis and matching.
 
-![Alt Text](images/basin.jpg) 
+## **Example**
+When a **point cloud** of an object, such as the **basin** shown below, is provided, the script **segments the point cloud into three chunks** and generates the corresponding **spin images** as output.
 
-when a point cloud of an object like the basin above is entered, the script separates the pcd into three chunks and produces  spin images as thevoutput shown below.
+### **Input Point Cloud**
+![Input Point Cloud](images/basin.jpg) 
 
-![Alt Text](images/spin.jpg)
+### **Generated Spin Images**
+![Generated Spin Images](images/spin.jpg)
 
-The inner working of code and functions  is well commented in the script itself.
+## **Implementation Details**
+- The script is **well-commented**, explaining the inner workings of the **functions and algorithms** used.
+- The methodology follows the principles outlined in **Andrew Johnson’s research on Spin-Images for 3D surface matching**.
 
+## **Reference**
+This implementation is based on the paper:
 
-Referenced from Spin-Images: A Representation for 3-D Surface Matching by Andrew Johnson
+**Andrew Johnson**  
+*"Spin-Images: A Representation for 3-D Surface Matching"*, Carnegie Mellon University, 1997.  
 
+## **Citation**
+If you use this work, please cite it as follows:
 
-## Citation
 ```bibtex
 @phdthesis{Johnson-1997-14453,
   author = {Andrew Johnson},
@@ -26,4 +37,3 @@ Referenced from Spin-Images: A Representation for 3-D Surface Matching by Andrew
   number = {CMU-RI-TR-97-47},
   keywords = {shape representation, 3-D surface matching, object recognition, spin-images, surface mesh, surface registration, object modeling, scene clutter.},
 }
-
