@@ -6,9 +6,6 @@ Referenced from Spin-Images: A Representation for 3-D Surface Matching by Andrew
 
 
 ## Citation
-
-If you use this work, please cite:
-
 ```bibtex
 @phdthesis{Johnson-1997-14453,
   author = {Andrew Johnson},
